@@ -8,7 +8,7 @@
 import Foundation
 import Combine
 
-public protocol SearchProductsRepositoryType {
+public protocol SearchProductsRepositoryType: AnyObject {
     func searchProducts(query: String, countryId: String) -> AnyPublisher<[ProductInformation], ProductListError>
 }
 

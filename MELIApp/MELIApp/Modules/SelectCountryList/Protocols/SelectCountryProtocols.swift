@@ -8,18 +8,18 @@
 import UIKit
 import MELIAppDomain
 
-protocol SelectCountryInteractorType {
+protocol SelectCountryInteractorType: AnyObject {
     var presenter: SelectCountryOuputPresenterType! { get set }
     var repository: CountriesRepositoryType { get set }
     func fetchCountries()
 }
 
-protocol SelectCountryPresenterType {
+protocol SelectCountryPresenterType: AnyObject {
     func fetchCountries()
     func goToSearchProducts(idCountry: String)
 }
 
-protocol SelectCountryOuputPresenterType {
+protocol SelectCountryOuputPresenterType: AnyObject {
     func manageError(_ error: SelectCountryErrors)
     func showContries(_ countries: [Country])
 }

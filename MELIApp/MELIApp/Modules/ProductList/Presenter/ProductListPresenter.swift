@@ -12,10 +12,9 @@ import MELIAppDomain
 final class ProductListPresenter: ProductListPresenterType {
 
     // MARK: - Internal properties -
-    
+    var countryId: String = .empty
     var interactor: ProductListInteractorType
     var router: ProductListRouterType?
-    var countryId: String = .empty
     unowned var view: ProductListViewType
     
     // MARK: - LifeCycle -
@@ -32,7 +31,8 @@ final class ProductListPresenter: ProductListPresenterType {
     }
     
     func goToProductDeatil(_ product: ProductInformation) {
-        router?.goToDetailProductModule(product)
+        guard let router else { return }
+        router.goToDetailProductModule(product)
     }
 }
 

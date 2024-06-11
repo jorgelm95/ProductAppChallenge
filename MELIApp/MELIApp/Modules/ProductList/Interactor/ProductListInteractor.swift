@@ -18,7 +18,7 @@ final class ProductListInteractor: ProductListInteractorType {
     
     // MARK: - Internal properties -
     
-    var presenter: ProductListInteractorOuputType!
+    weak var presenter: ProductListInteractorOuputType?
     var repository: SearchProductsRepositoryType
     
     // MARK: - LifeCycle -
@@ -36,11 +36,11 @@ final class ProductListInteractor: ProductListInteractorType {
             case .finished:
                 break
             case .failure(let error):
-                self.presenter.manageRequestError(error: error)
+                self.presenter!.manageRequestError(error: error)
             }
         } receiveValue: { [weak self] result in
             guard let self else { return }
-            self.presenter.showResults(items: result)
+            self.presenter!.showResults(items: result)
         }.store(in: &cancellable)
     }
 }

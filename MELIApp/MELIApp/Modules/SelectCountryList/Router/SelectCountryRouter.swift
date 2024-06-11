@@ -20,7 +20,7 @@ class SelecCountryRouter: SelectCountryRouterType {
         let repository: CountriesRepositoryType = CountriesRepository(
             serviceManager: ServiceManager(),
             mapperAdapater: CountryMapperAdapater())
-        var interactor: SelectCountryInteractorType = SelectCountryInteractor(
+        let interactor: SelectCountryInteractorType = SelectCountryInteractor(
             repository: repository)
         let view = SelectCountryViewController()
         let presenter = SelectCountryPresenter(interactor: interactor, view: view)

@@ -10,8 +10,7 @@ import MELIAppDomain
 
 final class ProductDetailPresenter: ProductDetailPresenterType {
     
-    var view: ProductDetailViewType
-    var router: ProductDetailRouterType?
+    unowned var view: ProductDetailViewType
     var product: ProductInformation?
     
     init(view: ProductDetailViewType) {

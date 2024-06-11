@@ -10,13 +10,13 @@ import Foundation
 import Combine
 import MELIAppDomain
 
-protocol ProductListInteractorType {
-    var presenter: ProductListInteractorOuputType! { get set }
+protocol ProductListInteractorType: AnyObject {
+    var presenter: ProductListInteractorOuputType? { get set }
     var repository: SearchProductsRepositoryType { get set }
     func searchProducts(query: String, countryId: String)
 }
 
-protocol ProductListInteractorOuputType {
+protocol ProductListInteractorOuputType: AnyObject {
     func showResults(items: [ProductInformation])
     func manageRequestError(error: ProductListError)
 }
@@ -39,7 +39,7 @@ protocol ProductListViewType: AnyObject {
     func removeLoadingView()
 }
 
-protocol ProductListRouterType {
+protocol ProductListRouterType: AnyObject {
     var viewControllerRef: UIViewController? { get set }
     func goToDetailProductModule(_ product: ProductInformation)
 }

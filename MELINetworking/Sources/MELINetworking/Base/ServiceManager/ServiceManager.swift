@@ -9,7 +9,7 @@ import Foundation
 import Combine
 
 // ServiceManagerType is a protocol that define the contract for execute calls to the API
-public protocol ServiceManagerType {
+public protocol ServiceManagerType: AnyObject {
     func execute<R: RequestType>(_ request: R) -> AnyPublisher<R.Output, ErrorHTTP.API>
     func handleDataTaskOutput(
         urlResponse: URLResponse,

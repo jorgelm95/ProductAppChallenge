@@ -10,7 +10,6 @@ import MELIAppDomain
 
 protocol ProductDetailPresenterType: AnyObject {
     var view: ProductDetailViewType { get set }
-    var router: ProductDetailRouterType? { get set }
     var product: ProductInformation? { get set }
     
     func viewDidLoad()

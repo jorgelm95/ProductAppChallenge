@@ -11,7 +11,7 @@ import Foundation
 
 final class ProductListInteractorStub: ProductListInteractorType {
     
-    var presenter: ProductListInteractorOuputType!
+    var presenter: ProductListInteractorOuputType?
     var repository: SearchProductsRepositoryType
     var setErrorResult: Bool = false
     var error: ProductListError?
@@ -22,9 +22,9 @@ final class ProductListInteractorStub: ProductListInteractorType {
     
     func searchProducts(query: String, countryId: String) {
         if setErrorResult {
-            presenter.manageRequestError(error: error ?? .invalidResponse)
+            presenter?.manageRequestError(error: error ?? .invalidResponse)
         } else {
-            presenter.showResults(items: ProductInformationDummy.getProducts())
+            presenter?.showResults(items: ProductInformationDummy.getProducts())
         }
     }
 }

@@ -17,7 +17,7 @@ final class SelectCountryInteractor: SelectCountryInteractorType {
     
     // MARK: - Internal properties -
     
-    var presenter: SelectCountryOuputPresenterType!
+    weak var presenter: SelectCountryOuputPresenterType!
     var repository: CountriesRepositoryType
     
     // MARK: - LifeCycle -

@@ -18,7 +18,6 @@ final class ProductDetailRouter: ProductDetailRouterType {
         let router = ProductDetailRouter()
         view.presenter = presenter
         router.viewControllerRef = view
-        presenter.router = router
         presenter.product = product
         
         return view

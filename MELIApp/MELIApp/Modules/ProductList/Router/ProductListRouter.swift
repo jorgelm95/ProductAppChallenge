@@ -13,7 +13,7 @@ import MELIAppData
 
 final class ProductListRouter: ProductListRouterType {
     
-    var viewControllerRef: UIViewController?
+    weak var viewControllerRef: UIViewController?
     
     static func buildModule(countryId: String) -> ProductListViewController {
 
