@@ -164,6 +164,7 @@ final class ProductListViewController: UIViewController, ProductListViewType {
                 text: Strings.ProductList.emptyStateResultTitle,
                 image: Constants.emptyStateImage)
         case .NetworkError:
+            items = []
             tableView.setEmptyState(
                 text: Strings.ProductList.emptyStateNetworkTitle,
                 image: Constants.emptyStateNetworkImage)
