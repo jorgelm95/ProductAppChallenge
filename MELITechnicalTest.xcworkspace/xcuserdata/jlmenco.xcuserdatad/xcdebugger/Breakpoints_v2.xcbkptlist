@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "320E6A70-143C-4253-B300-CB4C01836B74"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F4CE7A8C-8CEE-4B02-8270-316F92D10273"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MELINetworking/Sources/MELINetworking/Base/Request/Request.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "buildUrl()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "45F60F19-3048-47EC-A48C-ED03F66FE413"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MELIApp/MELIApp/Modules/Splash/View/SplashScreenViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7E168058-D0F3-4037-BA6F-15C38605309A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MELIApp/MELIApp/Modules/ProductList/Presenter/ProductListPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "searchProducts(query:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB46CFBB-50F0-4F6B-95C6-8B4435B70A4A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MELIApp/MELIAppTests/ProductList/Interactor/ProductListInteractorTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "ProductListInteractorTests"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "FB46CFBB-50F0-4F6B-95C6-8B4435B70A4A - 87a2c5e89e210161"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MELIAppTests.ProductListInteractorTests.sut.getter : Swift.Optional&lt;MELIApp.ProductListInteractor&gt;"
+                  moduleName = "MELIAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jlmenco/Documents/Jorge/ProductAppChallenge/MELIApp/MELIAppTests/ProductList/Interactor/ProductListInteractorTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "FB46CFBB-50F0-4F6B-95C6-8B4435B70A4A - acb1f195e55d5125"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MELIAppTests.ProductListInteractorTests.sut.setter : Swift.Optional&lt;MELIApp.ProductListInteractor&gt;"
+                  moduleName = "MELIAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jlmenco/Documents/Jorge/ProductAppChallenge/MELIApp/MELIAppTests/ProductList/Interactor/ProductListInteractorTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "FB46CFBB-50F0-4F6B-95C6-8B4435B70A4A - 7640772a686f4d70"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MELIAppTests.ProductListInteractorTests.sut.modify : Swift.Optional&lt;MELIApp.ProductListInteractor&gt;"
+                  moduleName = "MELIAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jlmenco/Documents/Jorge/ProductAppChallenge/MELIApp/MELIAppTests/ProductList/Interactor/ProductListInteractorTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "FB46CFBB-50F0-4F6B-95C6-8B4435B70A4A - 29c804e787ece9a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MELIAppTests.ProductListInteractorTests.sut.modify : Swift.Optional&lt;MELIApp.ProductListInteractor&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MELIAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jlmenco/Documents/Jorge/ProductAppChallenge/MELIApp/MELIAppTests/ProductList/Interactor/ProductListInteractorTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "FB46CFBB-50F0-4F6B-95C6-8B4435B70A4A - b84d53379f81d7f2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MELIAppTests.ProductListInteractorTests.init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; MELIAppTests.ProductListInteractorTests"
+                  moduleName = "MELIAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jlmenco/Documents/Jorge/ProductAppChallenge/MELIApp/MELIAppTests/ProductList/Interactor/ProductListInteractorTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "FB46CFBB-50F0-4F6B-95C6-8B4435B70A4A - 6f248b9300c697b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MELIAppTests.ProductListInteractorTests.init(selector: ObjectiveC.Selector) -&gt; MELIAppTests.ProductListInteractorTests"
+                  moduleName = "MELIAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jlmenco/Documents/Jorge/ProductAppChallenge/MELIApp/MELIAppTests/ProductList/Interactor/ProductListInteractorTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "FB46CFBB-50F0-4F6B-95C6-8B4435B70A4A - 9fe5b0dff7cb2c42"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MELIAppTests.ProductListInteractorTests.init() -&gt; MELIAppTests.ProductListInteractorTests"
+                  moduleName = "MELIAppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jlmenco/Documents/Jorge/ProductAppChallenge/MELIApp/MELIAppTests/ProductList/Interactor/ProductListInteractorTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D836F79E-3545-41C8-A069-C12B1E66BD0D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MELIAppData/Sources/MELIAppData/SelectCountry/Repositories/CountriesRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "fetchCountries()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "436A030D-EF3E-47E9-8BC4-AE132DD52DF9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MELIApp/MELIApp/Modules/ProductDetail/View/Cells/BulletPointTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "configure(title:value:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "436A030D-EF3E-47E9-8BC4-AE132DD52DF9 - 26ee97f8ea886a16"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MELIApp.BulletPointTableViewCell.configure(title: Swift.String, value: Swift.String) -&gt; ()"
+                  moduleName = "MELIApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jlmenco/Documents/Jorge/ProductAppChallenge/MELIApp/MELIApp/Modules/ProductDetail/View/Cells/BulletPointTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "436A030D-EF3E-47E9-8BC4-AE132DD52DF9 - 26ee97f8ea886a16"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MELIApp.BulletPointTableViewCell.configure(title: Swift.String, value: Swift.String) -&gt; ()"
+                  moduleName = "MELIApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jlmenco/Documents/Jorge/ProductAppChallenge/MELIApp/MELIApp/Modules/ProductDetail/View/Cells/BulletPointTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "148">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

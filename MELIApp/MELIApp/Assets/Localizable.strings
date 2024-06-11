@@ -1,0 +1,24 @@
+/* 
+  LocalizableString.strings
+  MELIApp
+
+  Created by Jorge Menco on 9/06/24.
+  
+*/
+
+//ProductListScreen
+"ProductList.searchBarPlaceholder" = "Buscar en mercado libre";
+"ProductList.EmptyState.emptyTitle" = "Realiza una busqueda y descubre prodctos increibles";
+"ProductList.EmptyState.emptyResultTitle" = "No encontramos resultados para tu busqueda intenta de nuevo";
+"ProductList.EmptyState.NetworkErrorTitle" = "Hubo un error de conexion intenta más tarde";
+"ProductList.productStateText" = "Estado del producto:";
+
+//ProductDeatailScreen
+"ProductDetail.titleScreen" = "Detalle de producto";
+"ProductDetail.SecondaryInformationHeadertitle" = "Lo que tienes que saber de este producto";
+"ProductDeatil.primaryInformation.buyNowButtonTitle" = "Comprar ahora";
+"ProductDeatil.primaryInformation.addToCarButtonTitle" = "Agregar al carrito";
+"ProductDeatil.primaryInformation.quantityAvailableTitle" = "Stock Disponible en tienda";
+
+//SelectCountryScreen
+"SelectCountry.titleTable" = "Elije dónde recibir tus compras";
